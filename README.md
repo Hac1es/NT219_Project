@@ -1,32 +1,31 @@
-## HỆ THỐNG ĐÁNH GIÁ ĐIỂM TÍN DỤNG LIÊN NGÂN HÀNG & TỔ CHỨC TÀI CHÍNH
-Đồ án môn Mật mã học (NT219), Trường Đại học Công nghệ Thông tin
+## Interbank & Financial Institution Credit Scoring System
+Cryptography Course Project (NT219), University of Information Technology
 
-### MÔ TẢ DỰ ÁN
+### Overview
 
-Hệ thống tính toán điểm tín dụng bảo mật sử dụng Multiparty CKKS cho phép nhiều bên cùng nhau hợp tác
-để tính toán trên dữ liệu đã mã hóa mà không cần giải mã, đảm bảo tính riêng tư và bảo mật dữ liệu tuyệt đối.
+A secure credit scoring system using Multiparty CKKS algorithm, enables multiple parties to collaboratively compute on encrypted data without decrypting it, ensuring absolute data privacy and security.
 
-### KIẾN TRÚC HỆ THỐNG (Ấn vào hình để xem video demo)
+### Architechture (Click the image to watch the demo video)
 
 [![Xem demo](diagram.png)](https://www.youtube.com/watch?v=zf33MT_4sFw)
 [Kịch bản demo](Kịch%20bản.txt)
 
 ---
 
-### CÀI ĐẶT
+### Installation
 
-#### 1. Yêu cầu hệ thống:
+#### Requirements
 
 - Python 3.12
-- 4 máy ảo/thật với network isolation
-- Ubuntu 24.04 (không được là Windows, vì openfhe-python không chạy được trên đó)
+- 4 VM with network isolation
+- Ubuntu 24.04 (Windows is not supported because **openfhe-python** does not run on it)
 
-#### 2. Xem các hướng dẫn kèm theo repo
+#### Reference
 
-- [Kiến trúc hệ thống](diagram.png)
-- [Sơ đồ tài sản](Assets%20Diagram.png)
-- [Luồng mã hóa](Encrypt%20Flow.png)
-- [Luồng giải mã](Decrypt%20Flow.png)
+- [Architechture](diagram.png)
+- [Assets Diagram](Assets%20Diagram.png)
+- [Encrpytion Flow](Encrypt%20Flow.png)
+- [Decryption Flow](Decrypt%20Flow.png)
 - [Setup Client](Setup%20Client.txt)
-- [Cài PostgreSQL hỗ trợ TDE](Setup%20Postgres%20TDE%20trên%20Ubuntu.txt)
+- [Setup TDE on PostgreSQL](Setup%20Postgres%20TDE%20trên%20Ubuntu.txt)
  
